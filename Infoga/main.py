@@ -41,4 +41,4 @@ def export_cookie_as_form_data(cookies, key, export_path='cookie_form_data.txt')
     else:
         print(f"Key '{key}' not found in cookies.")
 
-  key = getenv("key", 'Koushal')
+  key = "Koushal"
